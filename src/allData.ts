@@ -456,7 +456,7 @@ import ZAF from './iso3166Data/27_ZAF';
 import ZMB from './iso3166Data/260_ZMB';
 /** Zimbabwe */
 import ZWE from './iso3166Data/263_ZWE';
-import { PhoneType } from 'iso3166DataUtils';
+import { PhoneType } from './iso3166DataUtils';
 
 export const allData: PhoneType[] = [
   USA,
