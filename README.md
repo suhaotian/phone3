@@ -46,7 +46,7 @@ import phone, { setupData, getData } from 'phone3';
 import { allData } from 'phone3/allData';
 
 // setup all countries data, only run once enough
-setupData.setupData(allData);
+setupData(allData);
 
 // get data
 console.log(getData());
