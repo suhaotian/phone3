@@ -1,5 +1,5 @@
 {
-  "version": "4.1.0",
+  "version": "4.1.2",
   "license": "MIT",
   "main": "dist/phone3.js",
   "typings": "dist/phone3.d.ts",
@@ -12,7 +12,7 @@
   },
   "scripts": {
     "start": "tsdx watch",
-    "build": "tsdx build && mv dist/index.js dist/phone3.js && mv dist/index.d.ts dist/phone3.d.ts && tsc --rootDir ./src/ --sourceMap false --module umd && rm -rf dist/__tests__",
+    "build": "tsdx build && mv dist/index.js dist/phone3.js && mv dist/index.d.ts dist/phone3.d.ts && tsc --rootDir ./src/ --sourceMap false --module CommonJS && rm -rf dist/__tests__",
     "test": "tsdx test",
     "lint": "tsdx lint",
     "prepare": "yarn build",
