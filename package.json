@@ -1,8 +1,8 @@
 {
-  "version": "4.0.0",
+  "version": "4.1.0",
   "license": "MIT",
-  "main": "dist/index.js",
-  "typings": "dist/index.d.ts",
+  "main": "dist/phone3.js",
+  "typings": "dist/phone3.d.ts",
   "files": [
     "dist",
     "src"
@@ -12,10 +12,10 @@
   },
   "scripts": {
     "start": "tsdx watch",
-    "build": "tsdx build",
+    "build": "tsdx build && mv dist/index.js dist/phone3.js && mv dist/index.d.ts dist/phone3.d.ts && tsc --rootDir ./src/ --sourceMap false --module umd && rm -rf dist/__tests__",
     "test": "tsdx test",
     "lint": "tsdx lint",
-    "prepare": "tsdx build",
+    "prepare": "yarn build",
     "size": "size-limit",
     "analyze": "size-limit --why"
   },

@@ -1,5 +1,5 @@
-import { setupData, validate as phone } from '../src';
-import { allData } from '../src/allData';
+import { setupData, validate as phone } from '../';
+import { allData } from '../allData';
 
 setupData(allData);
 
