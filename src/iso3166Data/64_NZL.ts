@@ -7,9 +7,6 @@ export default {
   "country_name": "New Zealand",
   "mobile_begin_with": [
     "2",
-    "3",
-    "6",
-    "9"
   ],
   "phone_number_lengths": [
     8,
